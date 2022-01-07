@@ -1,10 +1,10 @@
 export default class SpaceAge{
   mercuryAge(number){
-    this.age = number*.24
+    this.age = Math.round(number*.24)
     return this.age
 }
   venusAge(number){
-    this.age = number*.62
+    this.age = Math.round(number*.62)
     return this.age
 }
   marsAge(number){
