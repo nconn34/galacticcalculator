@@ -1,8 +1,10 @@
 **Instructions for Cloning:
 
+Mark this page as a "template" and you will be able to use it for all future projects when creating a new repository!
+
 In the command line enter:
 
-$ git clone https://github.com/nconn34/<repositorynamehere>
+$ git clone https://github.com/nconn34/enterrepositorynamehere
 
 ** Then enter:
 
