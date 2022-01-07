@@ -1,7 +1,6 @@
-export class SpaceAge{
+export default class SpaceAge{
     mercuryAge(number){
-    console.log('SPACE!!');
-    let age = number*.24
-    console.log(age)
+    this.age = number*.24
+    return this.age
 }
 }
