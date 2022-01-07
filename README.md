@@ -2,7 +2,7 @@
 
 In the command line enter:
 
-$ git clone https://github.com/nconn34/projecttemplate
+$ git clone https://github.com/nconn34/<repositorynamehere>
 
 ** Then enter:
 
