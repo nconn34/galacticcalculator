@@ -52,5 +52,5 @@ $ npm start will run the dev server
 
 If you have any questions please use the contact information provided on the website.
 
-Copyright (c) 12/11/2021 Nathan Conn
+Copyright (c) 1/7/2022 Nathan Conn
 
