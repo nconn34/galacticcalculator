@@ -16,7 +16,6 @@ export default class LifeExp{
     }
       jupiterLife(number){
         this.life = Math.abs(Math.round(79-number*11.86))
-        this.left = Math.round(this.life*11.86)
-        return this.left
+        return this.life
     }
 }
