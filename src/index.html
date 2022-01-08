@@ -4,14 +4,19 @@
 </head>
 <body>
   <div class="container">
-    <h1>Greetings! It appears that doom is the only thing left for Earth! Enter your age to see if any of the planets nearby may be a good fit to live out the rest of your human days! You could also submit to the great intergalactic race of the Qwax and we could help solve all of your problems!</h1>
+    <h1>Greetings! It appears that doom is the only thing left for Earth!</h1> 
+    <h3>Enter your age to see if any of the planets nearby may be a good fit to live out the rest of your human days! You could also submit to the great intergalactic race of the Qwax and we could help solve all of your problems!</h3>
+    <form id="galacticAge">
     <label for="age">Enter your age to see your age and expected life total on each planet:</label>
     <input id="age" type="number">
-    <button class="btn-success" id="weatherLocation">Calculate Galactic Age!</button>
-    <div class="showMerucry"></div>
-    <div class="showVenus"></div>
-    <div class="showMars"></div>
-    <div class="showJupiter"></div>
+    <button class="btn-success" id="spaceLife">Calculate Galactic Age!</button>
+    <div class="card">
+      <ul id="responseMercury"></ul>
+      <ul id="responseVenus"></ul>
+      <ul id="responseMars"></ul>
+      <ul id="responseJupiter"></ul>
+    </div>
+    </form>
   </div>
 </body>
 </html>
