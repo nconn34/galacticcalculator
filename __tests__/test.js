@@ -15,9 +15,9 @@ describe('SpaceAge', ()=>{
 describe('LifeExp', ()=>{
   test('should correctly return a users converted life expectency on the specified planet as a positive number', () =>{
       const life = new LifeExp(40);
-      expect(life.mercuryLife(40)).toEqual(9);
-      expect(life.venusLife(40)).toEqual(24);
-      expect(life.marsLife(40)).toEqual(74);
-      expect(life.jupiterLife(40)).toEqual(463);
+      expect(life.mercuryLife(40)).toEqual(69);
+      expect(life.venusLife(40)).toEqual(54);
+      expect(life.marsLife(40)).toEqual(4);
+      expect(life.jupiterLife(40)).toEqual(395);
   });
 })
