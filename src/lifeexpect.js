@@ -1,18 +1,22 @@
 export default class LifeExp{
     mercuryLife(number){
         this.life = Math.abs(Math.round(79-number*.24))
-        return this.life
+        this.left = Math.round(this.life*.24)
+        return this.left
     }
       venusLife(number){
         this.life = Math.abs(Math.round(79-number*.62))
-        return this.life
+        this.left = Math.round(this.life*.62)
+        return this.left
     }
       marsLife(number){
         this.life = Math.abs(Math.round(79-number*1.88))
-        return this.life
+        this.left = Math.round(this.life*1.88)
+        return this.left
     }
       jupiterLife(number){
         this.life = Math.abs(Math.round(79-number*11.86))
-        return this.life
+        this.left = Math.round(this.life*11.86)
+        return this.left
     }
 }
