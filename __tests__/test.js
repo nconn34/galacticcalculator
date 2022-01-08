@@ -18,6 +18,6 @@ describe('LifeExp', ()=>{
       expect(life.mercuryLife(40)).toEqual(17);
       expect(life.venusLife(40)).toEqual(33);
       expect(life.marsLife(40)).toEqual(8);
-      expect(life.jupiterLife(40)).toEqual(4685);
+      expect(life.jupiterLife(40)).toEqual(395);
   });
 })
