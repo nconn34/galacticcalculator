@@ -15,4 +15,4 @@ export default class SpaceAge{
     this.age = Math.round(number*11.86)
     return this.age
 }
-}
+};
